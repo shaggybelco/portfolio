@@ -71,7 +71,7 @@
                         </a>
                     </div>
 
-                    <li [ngClass]="this.route.home" routerLink="/home" href="#home" onClick="document.getElementById('home').scrollIntoView();">
+                    <li [ngClass]="this.route.home" routerLink="/home" href="#home" onClick="document.getElementById('home').scrollIntoView({behavior:'smooth',block:'start'});">
                         <a>
                             <span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-2"
                                     width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -83,7 +83,7 @@
                                 </svg></span>
                             Home</a>
                     </li>
-                    <li [ngClass]="route.about" routerLink="/about" href="#about"  onClick="document.getElementById('about').scrollIntoView();">
+                    <li [ngClass]="route.about" routerLink="/about" href="#about"  onClick="document.getElementById('about').scrollIntoView({behavior:'smooth',block:'start'});">
                         <a>
                             <span><svg xmlns="http://www.w3.org/2000/svg"
                                     class="icon icon-tabler icon-tabler-user-circle" width="24" height="24"
@@ -96,7 +96,7 @@
                                 </svg></span>
                             About</a>
                     </li>
-                    <li [ngClass]="route.resume" href="#resume" onClick="document.getElementById('resume').scrollIntoView();">
+                    <li [ngClass]="route.resume" href="#resume" onClick="document.getElementById('resume').scrollIntoView({behavior:'smooth',block:'start'});">
                         <a>
                             <span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file"
                                     width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -108,7 +108,7 @@
                                 </svg></span>
                             Resume</a>
                     </li>
-                    <li [ngClass]="route.portfolio" routerLink="/portfolio" href="#portfolio" onClick="document.getElementById('portfolio').scrollIntoView();">
+                    <li [ngClass]="route.portfolio" routerLink="/portfolio" href="#portfolio" onClick="document.getElementById('portfolio').scrollIntoView({behavior:'smooth',block:'start'});">
                         <a>
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook"
@@ -124,7 +124,7 @@
                             </span>
                             Portfolio</a>
                     </li>
-                    <li [ngClass]="route.contact" routerLink="/contact" href="#contact" onClick="document.getElementById('contact').scrollIntoView();">
+                    <li [ngClass]="route.contact" routerLink="/contact" href="#contact" onClick="document.getElementById('contact').scrollIntoView({behavior:'smooth',block:'start'});">
                         <a>
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg"
