@@ -1,9 +1,20 @@
 .b{
-    height: 120vh;
+    height: 125vh;
+    image-rendering: optimizeQuality;
+}
+
+@media (max-width: 600px) {
+    .b{
+        height: 170vh;
+        // width: 100%;
+    }
+    .main{
+        margin-top: 1300px;
+    }
 }
 
 .main{
-    margin-top: 900px;
+    margin-top: 1000px;
 }
 
 button{
@@ -15,3 +26,4 @@ button{
 button:hover{
     transform: scale(1.1);
 }
+
